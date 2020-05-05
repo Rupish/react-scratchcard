@@ -42,7 +42,8 @@ var ScratchCard = function (_Component) {
       var image = new Image();
       image.crossOrigin = "Anonymous";
       image.onload = function () {
-        _this2.ctx.drawImage(image, 0, 0);
+        _this2.ctx.drawImage(image, 0, 0, image.width,    image.height,
+            0, 0, this.props.width, this.props.height);
         _this2.setState({ loaded: true });
       };
       image.src = this.props.image;
