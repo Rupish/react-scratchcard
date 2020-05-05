@@ -9,7 +9,7 @@ http://allu.io/react-scratchcard
 ## Installation
 
 ```
-$ npm install react-scratchcard
+$ npm install https://github.com/Rupish/react-scratchcard.git
 ```
 
 ## Example
